@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+
+    <!-- Disable this given check in this project -->
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+
+    <!-- Ignore the UnusedResources issue for the given ids -->
+    <issue id="UnusedResources">
+        <ignore regexp="project_id|google_crash_reporting_api_key|com.twitter.sdk.android.CONSUMER_KEY|com.twitter.sdk.android.CONSUMER_SECRET|facebook_app_id|fb_login_protocol_scheme" />
+    </issue>
+
+</lint>

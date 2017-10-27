@@ -1,0 +1,33 @@
+<FindBugsFilter>
+    <Match>
+        <Class name="~.*\.R\$.*"/>
+    </Match>
+
+    <Match>
+        <Class name="~.*\.Manifest\$.*"/>
+    </Match>
+
+    <Match>
+        <Class name="~.*\.*Test" />
+        <Not>
+            <Bug code="IJU" />
+        </Not>
+    </Match>
+
+    <Match>
+        <Class name="~.*.\$\$PresentersBinder.*" />
+    </Match>
+
+    <Match>
+        <Class name="~.*.\$\$State.*" />
+    </Match>
+
+    <Match>
+        <Class name="org.pjsip.pjsua2.Endpoint" />
+    </Match>
+
+    <Match>
+        <Class name="com.linebapp.android.service.SipService" />
+    </Match>
+
+</FindBugsFilter>
